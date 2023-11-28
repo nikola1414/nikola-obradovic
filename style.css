@@ -1,0 +1,281 @@
+* {
+    font-family: 'Lato';
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* header and navbar */
+header {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #0066FF;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 1000;
+}
+
+li {
+    text-align: center;
+    font-family: inherit;
+}
+
+header .navbar ul {
+    list-style: none;
+}
+
+header .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+header .navbar ul li a {
+    font-size: 20px;
+    padding: 20px;
+    color: #ffffff;
+    display: block;
+    text-decoration: none;
+}
+
+header label,
+header input {
+    display: none;
+}
+
+.button-cta {
+    background-color: #5D9BF6;
+    color: #ffffff;
+    font-family: 'Lato';
+    font-size: 16px;
+    width: 168px;
+    height: 44px;
+    border-radius: 8px;
+    border: 0;
+    font-weight: bold;
+}
+
+/* hero */
+.hero{
+    height:808px;
+    width:100%;
+}
+
+.gradient-bg{
+    background: linear-gradient(171.4deg, #0066FF, #0066FF 61%, #5D9BF6 61%, #5D9BF6 100%);
+}
+
+.ime{
+    z-index: 20 ;
+    position: absolute;
+    font-size: 200;
+    color: #ffffff;
+    font-weight: bold;
+    margin-top: 32px;
+    left:412;
+}
+
+.hero-slika{
+    width: 552px;
+    height: 552px;
+    z-index: 30 ;
+    position: absolute;
+    margin-top: 132px;
+    left: 684;
+}
+
+.prezime{
+    z-index: 40 ;
+    position: absolute;
+    font-size: 200;
+    color: #000000;
+    font-weight: bold;
+    margin-top: 488px;
+    right: 240;
+}
+
+/* achievements */
+.achievements{
+    height: 620px;
+    width:100%;
+    background-color:#5D9BF6 ;
+    display: flex;
+    flex-direction: column;
+    padding-top: 120px;
+    margin-bottom: 120px;
+}
+
+.achv-title-n-text{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.achv-title{
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: bold;
+    
+}
+
+.achv-text{
+    color: #ffffff;
+    font-size: 16px;
+    width: 552px;
+    text-align: center;
+    margin-bottom: 96px;
+    margin-top: 8px;
+}
+
+.sub-achievements{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.achv-sub-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.achv-icon{
+    width: 72px;
+    height: 72px;
+    border-radius: 1000px;
+    background-color: #FEC200;
+}
+
+.achv-subtitle{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.achv-subtext{
+    color: #ffffff;
+    font-size: 16px;
+    width: 360px;
+    text-align: center;
+    margin-top: 8px;
+}
+
+/* about-me */
+.about-me{
+    height: 792px;
+    width:100%;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* aspirations */
+.aspirations{
+    height: 694px;
+    width:100%;
+    background-color: #ffffff;
+}
+
+footer {
+    font-family: inherit;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #0066FF;
+    color: white;
+    text-align: center;
+    float: left;
+}
+
+.footer--icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.m075 {
+    margin: 0 0.75rem 0 0.75rem;
+}
+
+.line {
+    width: 168px;
+    height: 1px;
+    background-color: #FEC200;
+    margin: 47px auto 47px auto;
+
+
+}
+
+.footer-text {
+    margin-bottom: 80px;
+}
+
+
+
+
+
+
+
+
+
+@media(max-width:768px) {
+    header {
+        padding: 20px;
+    }
+
+    header .button-cta {
+        display: none;
+    }
+
+    header .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: #0066FF;
+        display: none;
+        align-items: center;
+    }
+
+    header .navbar ul li {
+        width: 100%;
+    }
+
+    #menu-bar {
+        display: initial;
+    }
+
+    header label {
+        font-size: 20px;
+        color: #333;
+        cursor: pointer;
+        display: initial;
+    }
+
+    #menu-bar:checked~.navbar {
+        display: initial;
+    }
+
+    #menu-bar:checked~.line1 {
+        display:initial;
+    }
+    #menu-bar:checked~.btn_hdn {
+        display: initial;
+    }
+
+    ul {
+        width: 50%;
+        margin: auto;
+    }
+}
