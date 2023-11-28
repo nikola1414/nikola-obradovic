@@ -16,6 +16,7 @@
 </head>
 
 <body>
+    <section id="nav_bar">
     <header>
         <svg width="52" height="31" viewBox="0 0 52 31" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path
@@ -31,15 +32,16 @@
         </label>
         <nav class="navbar">
             <ul>
-                <li><a href="#">Achievements</a></li>
-                <li><a href="#">About Me</a></li>
-                <li><a href="#">Aspirations</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#aspirations">Aspirations</a></li>
             </ul>
         </nav>
-        
-        <button id="contact_me" type="button" class="button-cta">Contact Me</button>
+        <button type="button" class="button-cta"><a href="#contact_me">Contact Me</a></button>
     </header>
-    
+</section>
+
+    <section id="hero">
     <div class="hero gradient-bg">  
         <div >
             <h1 class="ime">NIKOLA</h1>
@@ -47,47 +49,54 @@
             <img class="hero-slika" src="slike/hero-image.png" alt="">
         </div>
     </div>
+    </section>
 
-    <div class="achievements">
-        <div class="achv-title-n-text">
-            <div class="achv-title">My Achievements</div>
-            <div class="achv-text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</div>
-        </div>
-        <div class="sub-achievements">
-            <div class="achv-sub-section">
-                <div class="achv-icon"></div>
-                <div class="achv-subtitle">subtitle</div>
-                <div class="achv-subtext">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</div>
+    <section id="achievements">
+        <div class="achievements">
+            <div class="achv-title-n-text">
+                <div class="achv-title">My Achievements</div>
+                <div class="achv-text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</div>
             </div>
-            <div class="achv-sub-section">
-                <div class="achv-icon"></div>
-                <div class="achv-subtitle">subtitle</div>
-                <div class="achv-subtext">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</div>
-            </div>
-            <div class="achv-sub-section">
-                <div class="achv-icon"></div>
-                <div class="achv-subtitle">subtitle</div>
-                <div class="achv-subtext">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</div>
+            <div class="sub-achievements">
+                <div class="achv-sub-section">
+                    <div class="achv-icon"></div>
+                    <div class="achv-subtitle">subtitle</div>
+                    <div class="achv-subtext">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</div>
+                </div>
+                <div class="achv-sub-section">
+                    <div class="achv-icon"></div>
+                    <div class="achv-subtitle">subtitle</div>
+                    <div class="achv-subtext">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</div>
+                </div>
+                <div class="achv-sub-section">
+                    <div class="achv-icon"></div>
+                    <div class="achv-subtitle">subtitle</div>
+                    <div class="achv-subtext">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</div>
+                </div>
             </div>
         </div>
-    </div>
+    </section>
 
-    <div class="about-me">
-        <div class="about-block">
-            <div class="about-title">About me</div>
-            <div class="about-line"></div>
-            <div class="about-text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</div>
+    <section id="about">
+        <div class="about-me">
+            <div class="about-block">
+                <div class="about-title">About me</div>
+                <div class="about-line"></div>
+                <div class="about-text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</div>
+            </div>
         </div>
-    </div>
+    </section>  
 
 
 
-
+    <section id="#aspirations" >
     <div class="aspirations">asdasd</div>
+    </section>
 
-    <footer >
+    <section id="contact_me">
+    <footer>
         <div>
-            <div class="footer--icons">
+            <div  class="footer--icons">
                 <svg class="m075" width="72" height="72" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <rect width="72" height="72" rx="36" fill="#5D9BF6"/>
                     <path d="M49.5075 51.1645C48.8378 52.1866 47.6747 52.7858 46.4411 52.7153C45.2076 52.6448 43.6215 52.4686 42.5289 52.1866C37.6651 50.9178 32.6251 47.8867 28.3604 43.6221C24.0957 39.3574 21.0646 34.3174 19.7958 29.4535C19.5139 28.3609 19.3729 26.8102 19.2671 25.5766C19.1966 24.3783 19.7606 23.2152 20.7827 22.5455L25.1178 19.6554C26.2457 18.9153 27.7612 19.3029 28.3604 20.5013L31.8849 27.3036C32.3783 28.2552 32.1316 29.4536 31.2857 30.1232L28.1137 32.5904C29.3825 34.9518 30.5808 36.855 32.907 39.146C35.057 41.2959 36.9249 42.5647 39.3569 43.8688L41.8593 40.6615C42.5289 39.8156 43.7273 39.5336 44.6789 40.0623L51.5164 43.5868C52.7147 44.186 53.1025 45.7016 52.3623 46.8294L49.5075 51.1645Z" fill="white"/>
@@ -119,6 +128,8 @@
         
         <p class="footer">All rights reserved to Nikola Obradovic</p>
     </footer>
+    </section>  
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
     </script>

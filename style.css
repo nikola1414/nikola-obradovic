@@ -58,6 +58,12 @@ header input {
     border-radius: 8px;
     border: 0;
     font-weight: bold;
+    text-align: center;    
+}
+
+.button-cta a{
+    text-decoration: none;
+    color: #ffffff;
 }
 
 /* hero */
@@ -179,6 +185,7 @@ header input {
     align-items: center;
     justify-content: center;
 }
+
 .about-block{
     width: 552px;
     height: 552px;
@@ -189,6 +196,7 @@ header input {
     align-items: center;
     justify-content: center;
 }
+
 .about-title{
     font-size: 48px;
     font-weight: bold;
